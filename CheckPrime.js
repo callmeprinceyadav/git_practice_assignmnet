@@ -1,8 +1,8 @@
-let N = 13
-count = 0
+let N = 13;
+count = 0;
 
-for(i=2; i<=N; i++){
-    if (i%N==0){
+for(i=1; i<=N; i++){
+    if (N%i==0){
         count += 1
     }
 }

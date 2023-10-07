@@ -1,12 +1,12 @@
-let N = 13
-count = 0
+let N = 13;
+count = 0;
 
-for(i=2; i<=N; i++){
+for(i=0; i<=N; i++){
     if (i%N==0){
         count += 1
     }
 }
-if (count == 2){
+if (count > 2){
     console.log("It Is A Prime Number")
 }
 else{
